@@ -33,6 +33,7 @@ jobs:
          
           # 服务器ssh端口(默认22,可改
           # remote_port: ${{ secrets.DEPLOY_PORT }}
+          remote_port: 22
           
           # 服务器默认用户名为root(不建议使用root账号)
           REMOTE_USER: "root"
