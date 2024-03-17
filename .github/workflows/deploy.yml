@@ -26,8 +26,8 @@ jobs:
           # remote_host: ${{ secrets.DEPLOY_HOST }}
           # remote_host: xiaobluebird.com
           remote_host: '47.97.5.17'
-		  
-		  
+          
+          
           # 服务器ssh端口(默认22,可改
           # remote_port: ${{ secrets.DEPLOY_PORT }}
           remote_port: '22'
@@ -38,8 +38,8 @@ jobs:
           
           # 私钥
           remote_key: '${{ secrets.DEPLOY_KEY }}'
-		  
-		  
+          
+          
           # 服务器中的目标路径
           # remote_path: ${{ secrets.DEPLOY_PATH }}
           remote_path: '/usr/local/blog/public/'
