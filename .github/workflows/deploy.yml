@@ -30,10 +30,10 @@ jobs:
           
           # 服务器ssh端口(默认22,可改
           # remote_port: ${{ secrets.DEPLOY_PORT }}
-          remote_port: '22'
+          remote_port: '22001'
           
-          # 服务器默认用户名为root(不建议使用root账号)
-          REMOTE_USER: 'root'
+          # 服务器默认用户名(不建议使用root账号)
+          REMOTE_USER: 'bluebird'
           #remote_user: ${{ secrets.DEPLOY_USER }}
           
           # 私钥
@@ -43,4 +43,3 @@ jobs:
           # 服务器中的目标路径
           # remote_path: ${{ secrets.DEPLOY_PATH }}
           remote_path: '/usr/local/blog/public/'
-         
