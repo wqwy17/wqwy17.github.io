@@ -42,4 +42,4 @@ jobs:
           
           # 服务器中的目标路径
           # remote_path: ${{ secrets.DEPLOY_PATH }}
-          remote_path: '/usr/local/blog/public/'
+          remote_path: '/home/bluebird/blog/public/'
