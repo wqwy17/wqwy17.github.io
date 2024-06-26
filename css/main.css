@@ -2648,13 +2648,13 @@ header.header {
 
 @media (min-width: 992px) {
   .post-body {
-    text-align: center;
+    text-align: start;
   }
 }
 
 @media (max-width: 991px) {
   .post-body {
-    text-align: center;
+    text-align: start;
   }
 }
 
